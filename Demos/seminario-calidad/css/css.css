@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Archivo Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Archivo Narrow Regular'), local('ArchivoNarrow-Regular'), url(http://themes.googleusercontent.com/static/fonts/archivonarrow/v3/DsLzC9scoPnrGiwYYMQXpkpeNX8RPf6i6WQfJWyCWEs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo Narrow';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Archivo Narrow Bold'), local('ArchivoNarrow-Bold'), url(http://themes.googleusercontent.com/static/fonts/archivonarrow/v3/M__Wu4PAmHf4YZvQM8tWsDnFfol0SnfBMmbnmUK0fZM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo Narrow';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Archivo Narrow Italic'), local('ArchivoNarrow-Italic'), url(http://themes.googleusercontent.com/static/fonts/archivonarrow/v3/vqsrtPCpTU3tJlKfuXP5zcnwn6e04auzqzWOIA_hv3E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo Narrow';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Archivo Narrow Bold Italic'), local('ArchivoNarrow-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/archivonarrow/v3/wG6O733y5zHl4EKCOh8rSQKRIWFa_QDmOmnTt8LSaDQ.ttf) format('truetype');
+}
