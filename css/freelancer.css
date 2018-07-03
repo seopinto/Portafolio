@@ -8,7 +8,7 @@ ul{
 	}
 
 .navbar-default{
-    background: transparent;
+    background: #27253f ;
 }
 p.small {
     font-size: 16px;
@@ -34,7 +34,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #FFF ;
 }
 
 h1,
@@ -94,7 +94,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #43a5ad;
-    background: #ffffff url("../img/pattern.png")   repeat;
+    background: #27253f  url("../img/pattern.png")   repeat;
     background-attachment: fixed;
    
 
@@ -104,16 +104,22 @@ header {
     background: #43a5ad;
     color: white;     
 }
+.navbar-brand:hover{
+    border-radius: 50px;
+    background: transparent;
+    color: white;     
+}
 
 ul>li.btn-nav{
         height: 60px;
     border-radius: 50px;
     background: #43a5ad;
     color: white;
-    -webkit-transition: background-color 2s ease-out;
+       -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
   transition: background-color 2s ease-out;
+ 
 }
 ul>li.btn-nav a{
     color: #fff;
@@ -123,10 +129,11 @@ ul>li.btn-nav a:hover{
     border-radius: 20px;
     background: #2b83a3;
     color: white;
-   
+    
   cursor: pointer;
+    
 }
-}
+
 
 
 
@@ -228,7 +235,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c url("../img/pattern-transparent.png")   repeat;
+    background: #27253f  url("../img/pattern.png")   repeat;
     background-attachment: fixed;
 }
 	
@@ -390,7 +397,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #27253f ;
 }
 
 footer .footer-col {
@@ -399,7 +406,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #27253f ;
 }
 
 .btn-social {
