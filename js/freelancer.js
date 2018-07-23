@@ -24,17 +24,3 @@ $(function() {
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
-
-$(document).ready(function(){
-    $("button").mouseenter(function() {
-    $(this).fadeTo('fast',1);
-    
-    });
-     $("button").mouseleave(function() {
-    $(this).fadeTo('opacity', 0.5);
-    
-     });
-	
-	 
-});
-
