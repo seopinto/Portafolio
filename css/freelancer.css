@@ -8,25 +8,25 @@ ul{
 	}
 
 .navbar-default{
-    background: #27253f ;
+    background: #253746 ;
 }
 p.small {
     font-size: 16px;
 }
 
 #logo{
-	
+
 	display:block;
 	position:relative;
 	left:110px;
 	top:0px;
-	
+
 	}
-a .logo{    
+a .logo{
      font-family: 'Poppins', sans-serif;
     font-weight: 700;
     text-transform: capitalize;
-    
+
 }
 a,
 a:hover,
@@ -75,7 +75,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #2b83a3;
+    background-color: #00B4E4;
 }
 
 hr.star-primary {
@@ -93,33 +93,33 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #43a5ad;
+    color: #00B4E4;
     background: #27253f  url("../img/pattern.png")   repeat;
     background-attachment: fixed;
-   
+
 
 }
 .navbar-brand{
     border-radius: 50px;
-    background: #43a5ad;
-    color: white;     
+    background: #00B4E4;
+    color: white;
 }
 .navbar-brand:hover{
     border-radius: 50px;
     background: transparent;
-    color: white;     
+    color: white;
 }
 
 ul>li.btn-nav{
         height: 60px;
     border-radius: 50px;
-    background: #43a5ad;
+    background: #00B4E4;
     color: white;
        -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
   transition: background-color 2s ease-out;
- 
+
 }
 ul>li.btn-nav a{
     color: #fff;
@@ -129,9 +129,9 @@ ul>li.btn-nav a:hover{
     border-radius: 20px;
     background: #2b83a3;
     color: white;
-    
+
   cursor: pointer;
-    
+
 }
 
 
@@ -149,7 +149,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -167,13 +167,13 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 5em;
+        font-size: 3.5em;
     }
 
     header .intro-text .skills {
         font-size: 1.75em;}
-    
-    	
+
+
 }
 
 @media(min-width:768px) {
@@ -198,7 +198,7 @@ header .intro-text .skills {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 2em;
     }
-	
+
 }
 
 .navbar {
@@ -238,7 +238,7 @@ section.success {
     background: #27253f  url("../img/pattern.png")   repeat;
     background-attachment: fixed;
 }
-	
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -250,6 +250,10 @@ section.success {
 		#logo{
 		display:none;
 		}
+}
+#portafolio{
+
+  background: #F0F3F5;
 }
 
 #portfolio .portfolio-item {
@@ -303,20 +307,32 @@ section.success {
 #portfolio * {
     z-index: 2;
 }
+#contact{
+
+background: #FDCF41  url("../img/pattern.png") repeat;
+background-attachment: fixed;
+}
+.box-contact{
+
+  background: white;
+    /* border-radius: 30px; */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all .3s ease-in-out;
+}
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
-    
+
 }
 
 .btn-outline {
-        border: solid 5px #47a7af;
+        border: solid 5px #00B4E4;
     font-size: 20px;
     color: #fff;
-    background: #47a7af;
-    
+    background: #00B4E4;
+
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: all .3s ease-in-out;
 }
@@ -326,11 +342,26 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 5px #fff;
-    color: #18bc9c;
+    color: #00B4E4;
     border-radius: 50px;
     background: #fff;
 }
+.btn-success{
+  background-color: #00B4E4;
+      border-color: #00B4E4;
 
+}
+
+.btn-success:hover{
+  background-color: #FDCF41;
+      border-color: #FDCF41;
+      color: #00B4E4;
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      transition: all .3s;
+}
+form {
+  padding: 10px;
+}
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
@@ -380,12 +411,10 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #00B4E4;
 }
 
-form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
-}
+
 
 footer {
     color: #fff;
@@ -505,17 +534,17 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-#about  p{
+header, #about  p{
 font-size: 20px;
 width: 100%;
+color: white;
 
 }
 
 
 footer p {
-    
-    font-size: 20px;
-    
-    
-}
 
+    font-size: 20px;
+
+
+}
