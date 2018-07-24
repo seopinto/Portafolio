@@ -129,7 +129,7 @@ ul>li.btn-nav a:hover{
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 header img {
@@ -157,7 +157,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 3.5em;
+        font-size: 2.5em;
     }
 
     header .intro-text .skills {
@@ -346,7 +346,7 @@ background-attachment: fixed;
   background-color: #FDCF41;
       border-color: #FDCF41;
       color: #00B4E4;
-  
+
 }
 form {
   padding: 2rem;
@@ -524,7 +524,6 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 header, #about  p{
-font-size: 20px;
 width: 100%;
 color: white;
 

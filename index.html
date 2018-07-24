@@ -44,22 +44,21 @@
     <header>
         <div class="container">
             <div class="row">
-                    <div class="col-sm-12 col-md-5 col-lg-5">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
                         <img class="img-fluid animated rubberBand" src="img/perfil.png" alt="sergio pinto profile">
                     </div>
-                <div class="col-sm-12 col-md-7 col-lg-7">
-
-
+                <div class="col-sm-12 col-md-8 col-lg-8">
                     <div class="intro-text animated rubberBand">
-                        <span class="name">Diseñador web</span>
+                        <span  id="type-1" class="name"></span>
                         <hr class="star-light">
-                         <p class="intro-text lead">
-                           Tecnólogo en Producción Multimedia. <br>
-                           Un apasionado del diseño web, estoy constantemente trabajando para mejorar mis habilidades, ampliar mis conocimientos y mantenerme al día con las tendencias actuales. <br>
-                           Si usted está interesado en trabajar conmigo, me encantaría saber de usted.
+                         <p  id="type-description" class="intro-text lead">
+
+                             Tecnólogo en Producción Multimedia.  <br>
+                             Un apasionado del diseño web, estoy constantemente trabajando para mejorar mis habilidades, ampliar mis conocimientos y mantenerme al día con las tendencias actuales. <br>
+                             este espacio es dedicado mostrar mi portafolio. Gracias!
 
                          </p>
-                          <div class=" page-scroll col-lg-8 col-lg-offset-2 text-center">
+                          <div class=" page-scroll col-xs-12 col-sm-12 col-md-12 col-lg-12  text-center">
                   <a href="#portfolio"  class=" btn btn-lg btn-outline">Portafolio</a>
                   <a href="#contact"  class=" btn btn-lg btn-outline">Contactame</a>
                 </div>
@@ -230,10 +229,29 @@
     <script src="js/jquery-1.10.2.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/typeit@VERSION_NUMBER/dist/typeit.min.js" /> </script>
       <script src="js/classie.js"></script>
       <script src="js/cbpAnimatedHeader.min.js"></script>
       <script src="js/freelancer.js"></script>
+      <script src="js/typeit.min.js"></script>
+      <script type="text/javascript">
+      new TypeIt('#type-1', {
+  strings: [" Hola, Me llamo sergio pinto" ,"Diseñador web...", ],
+  speed: 120,
+  breakLines: false,
+  autoStart: false
+
+});
+
+new TypeIt('#type-1', {
+strings: [" Hola, Me llamo sergio pinto" ,"Diseñador web...", ],
+speed: 120,
+breakLines: false,
+autoStart: false
+
+});
+
+
+      </script>
 
 </body>
 
