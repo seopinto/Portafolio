@@ -529,6 +529,15 @@ color: white;
 
 }
 
+#bigTriangleColor path {
+    fill: #27253f;
+    stroke: #27253f;
+    stroke-width: 2;
+}
+#curveUpColor path, #curveDownColor path {
+    fill: #fcce41;
+    stroke: #fdcf41;
+}
 
 footer p {
 
